@@ -26,6 +26,11 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap", "404"]
   blurb = "A standalone Go module any program can import; the OAuth-style dependency runs the other way — `rbgo` binds it into [go-embedded-ruby](https://github.com/go-embedded-ruby/ruby) as a native module, the same pattern as go-ruby-yaml."
 
 [[params.phases]]
+  name = "Terminal host · v0.1.0"
+  status = "ready"
+  blurb = "The `terminal` package puts the editor on a real terminal — raw mode, keys decoded through the keymap (`ReadKeys`, `SetANSIKeyBindings`), multiline reads, Tab completion with the menu below the line, history, bracketed paste. Linux, macOS and Windows 10+. It is the line editor of go-notebook's `notebook irb`."
+
+[[params.phases]]
   name = "100% coverage · 6 arches"
   status = "ready"
   blurb = "100% test coverage is the CI gate, `gofmt` + `go vet` clean, green across the six 64-bit Go targets (amd64, arm64, riscv64, loong64, ppc64le, s390x — including the big-endian lane)."
